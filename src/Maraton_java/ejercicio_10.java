@@ -1,28 +1,24 @@
 package Maraton_java;
 
 import java.util.Scanner;
-/*
-  Determinar el cuadrado de una suma
-  Hacer un programa que calcule el cuadrado de una suma
- (a+b)2 = a2 + b2 + 2ab
- */
+
+//area y circunferencia de un circulo
 public class ejercicio_10 {
-        public static void main(String[] args) {
-            //Declaracion de variables
-            int a,b,total;
-            Scanner entrada = new Scanner(System.in);
+    public static void main(String[] args) {
+        //var
+        double radio ,area , circunferencia ;
 
-            // ingreso de datos
-            System.out.println("favor de ingresar los coeficientes respectivamente :");
-            a = entrada.nextInt();
-            b = entrada.nextInt();
+        //obj
+        Scanner sc = new Scanner(System.in);
 
-            //determinar el binomio
-            total = (a*a)+(b*b)+(2*a*b);
+        //Solicitar los datos
+        System.out.println("Digita el radio de tu circulo :");
+        radio = sc.nextDouble();
 
-            //imprimir los resultados
-            System.out.println("el resultado de la operacion es : " + total);
-            entrada.close();
+        area = Math.PI*Math.pow(radio,2);
+        circunferencia = 2*Math.PI*radio;
 
-        }
+        System.out.println("El area de el circulo es :"+area +"\nsu circunferencia es:"+circunferencia);
+
+    }
 }
