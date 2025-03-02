@@ -1,7 +1,7 @@
 package Maraton_java;
 
 import java.util.Scanner;
-
+//mayor de 3 numeros o si son iguales
 public class ejercicio_29 {
     public static void main(String[] args) {
         // var

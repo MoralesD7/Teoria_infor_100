@@ -1,7 +1,7 @@
 package Maraton_java;
 
 import java.util.Scanner;
-
+//lamadas de telefono en distintas areas
 public class ejercicio_30 {
     public static void main(String[] args) {
         //var

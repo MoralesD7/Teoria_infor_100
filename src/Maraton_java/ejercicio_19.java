@@ -1,7 +1,7 @@
 package Maraton_java;
 
 import java.util.Scanner;
-
+//area de un triangulo mediante distancia de punto a punto
 public class ejercicio_19 {
     public static void main(String[] args) {
         // Var

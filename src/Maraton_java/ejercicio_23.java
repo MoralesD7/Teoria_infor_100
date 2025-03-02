@@ -1,7 +1,7 @@
 package Maraton_java;
 
 import java.util.Scanner;
-
+//ecuacion cuadratica
 public class ejercicio_23 {
     public static void main(String[] args) {
         //declaracion de variables
