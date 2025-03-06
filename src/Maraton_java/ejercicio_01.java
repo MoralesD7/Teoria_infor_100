@@ -6,13 +6,14 @@ import java.util.Scanner;
 public class ejercicio_01 {
     public static void main(String[] args) {
         //var
-        int dinero , cambio , costo ;
-
+        int  dinero , cambio , costo ;
+        //entrada ,proceso ,salida
         //obj
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);//flujo de datos o la entrada de detos
 
         //Solicitar los datos
         System.out.println("Digite el costo del producto y la cantidad de pago :");
+
         costo = sc.nextInt();
         dinero = sc.nextInt();
 
