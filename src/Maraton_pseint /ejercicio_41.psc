@@ -1,4 +1,4 @@
-arreglar comentarios  y de que trata el enunciado
+//arreglar comentarios  y de que trata el enunciado
 Algoritmo ejercicio_41
     // Variables
     Definir par, impar, promedio, suma_impar, suma_par, contador Como Entero;
