@@ -1,16 +1,17 @@
+arreglar comentarios  y de que trata el enunciado
 Algoritmo ejercicio_41
     // Variables
     Definir par, impar, promedio, suma_impar, suma_par, contador Como Entero;
     
-    // Inicialización de variables
+    // InicializaciÃ³n de variables
     suma_impar <- 0;
     suma_par <- 0;
     contador <- 0;
     
     // Mensaje de bienvenida
-    Escribir "Bienvenido a tu programa para mostrarte algo increíble";
+    Escribir "Bienvenido a tu programa para mostrarte algo increÃ­ble";
 	
-    // Bucle para recorrer los 270 números
+    // Bucle para recorrer los 270 nÃºmeros
     Para i <- 0 Hasta 269 Hacer
         Si i MOD 2 = 0 Entonces
             contador <- contador + 1;
@@ -20,7 +21,7 @@ Algoritmo ejercicio_41
         FinSi
     FinPara
 	
-    // Calcular el promedio de los números pares
+    // Calcular el promedio de los nÃºmeros pares
     promedio <- suma_par / contador;
 	
     // Mostrar resultados
